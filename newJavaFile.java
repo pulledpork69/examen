@@ -14,6 +14,8 @@ switch(menu){
             num1=sc.nextInt();
             System.out.println("Dame el segundo número");
             num2=sc.nextInt();
+            int totalResta=num1-num2;
+            System.out.println("La resta de los números es: "+totalResta);
         break;
     case 3:
         break;
