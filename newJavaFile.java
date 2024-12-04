@@ -10,7 +10,10 @@ int num1,num2;
 switch(menu){
     case 1: 
         break;
-    case 2:
+    case 2: System.out.println("Dame el primer número");
+            num1=sc.nextInt();
+            System.out.println("Dame el segundo número");
+            num2=sc.nextInt();
         break;
     case 3:
         break;
