@@ -16,6 +16,8 @@ switch(menu){
             num1=sc.nextInt();
             System.out.println("Introduce el segundo número");
             num2=sc.nextInt();
+            int totalMultiplicacion=num1/num2;
+            System.out.println("La multiplicación de los dos números es: "+totalMultiplicacion);
         break;
     case 4:
         break;
