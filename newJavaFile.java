@@ -12,6 +12,8 @@ switch(menu){
                 num1=sc.nextInt();
             System.out.println("Dame el segundo número");
                 num2=sc.nextInt();
+             int totalSuma=num1+num2;
+             System.out.println("La suma de los números es: "+totalSuma);
         break;
     case 2:
         break;
