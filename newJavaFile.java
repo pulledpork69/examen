@@ -18,6 +18,8 @@ switch(menu){
             num1=sc.nextInt();
             System.out.println("Introduce el siguiente número");
             num2=sc.nextInt();
+            int totalDivision=num1/num2;
+            System.out.println("La división de los dos números es: "+totalDivision);
         break;
 }
     }
