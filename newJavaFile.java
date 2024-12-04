@@ -22,7 +22,12 @@ switch(menu){
             int totalResta=num1-num2;
             System.out.println("La resta de los números es: "+totalResta);
         break;
-    case 3:
+    case 3: System.out.println("Introduce el primer número");
+            num1=sc.nextInt();
+            System.out.println("Introduce el segundo número");
+            num2=sc.nextInt();
+            int totalMultiplicacion=num1*num2;
+            System.out.println("La multiplicación de los dos números es: "+totalMultiplicacion);
         break;
     case 4:
         break;
