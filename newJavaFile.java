@@ -12,7 +12,10 @@ switch(menu){
         break;
     case 2:
         break;
-    case 3:
+    case 3: System.out.println("Introduce el primer número");
+            num1=sc.nextInt();
+            System.out.println("Introduce el segundo número");
+            num2=sc.nextInt();
         break;
     case 4:
         break;
