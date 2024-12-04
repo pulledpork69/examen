@@ -29,7 +29,12 @@ switch(menu){
             int totalMultiplicacion=num1*num2;
             System.out.println("La multiplicación de los dos números es: "+totalMultiplicacion);
         break;
-    case 4:
+    case 4: System.out.println("Introduce el primer número");
+            num1=sc.nextInt();
+            System.out.println("Introduce el siguiente número");
+            num2=sc.nextInt();
+            int totalDivision=num1/num2;
+            System.out.println("La división de los dos números es: "+totalDivision);
         break;
 }
     }
