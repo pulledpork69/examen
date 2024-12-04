@@ -15,7 +15,12 @@ switch(menu){
              int totalSuma=num1+num2;
              System.out.println("La suma de los números es: "+totalSuma);
         break;
-    case 2:
+    case 2: System.out.println("Dame el primer número");
+            num1=sc.nextInt();
+            System.out.println("Dame el segundo número");
+            num2=sc.nextInt();
+            int totalResta=num1-num2;
+            System.out.println("La resta de los números es: "+totalResta);
         break;
     case 3:
         break;
