@@ -14,7 +14,10 @@ switch(menu){
         break;
     case 3:
         break;
-    case 4:
+    case 4: System.out.println("Introduce el primer número");
+            num1=sc.nextInt();
+            System.out.println("Introduce el siguiente número");
+            num2=sc.nextInt();
         break;
 }
     }
