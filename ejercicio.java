@@ -20,7 +20,15 @@ public class ejercicio {
              System.out.println(concatenar);
           
      
-     case 2:
+     case 2: System.out.print("Ingrese una frase: ");
+     palabra1=sc.nextLine();
+     if (palabra1.trim().isEmpty()) {
+            System.out.println("La frase no contiene palabras.");
+        } else {
+            String[] palabras = palabra1.trim().split("\\s+");
+            int numeroDePalabras = palabras.length;
+
+            System.out.println("La frase contiene " + numeroDePalabras + " palabras.");
          
      case 3:
      
