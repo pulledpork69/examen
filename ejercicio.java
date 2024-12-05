@@ -16,6 +16,9 @@ public class ejercicio {
              palabra1=sc.nextLine();
              System.out.println("Dame una palabra");
              palabra2=sc.nextLine();
+             String concatenar=palabra1+""+palabra2;
+             System.out.println(concatenar);
+          
      
      case 2:
          
