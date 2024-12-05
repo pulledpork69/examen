@@ -12,7 +12,10 @@ public class ejercicio {
  int eleccion;
  eleccion=sc.nextInt();
  switch (eleccion){
-     case 1: 
+     case 1: System.out.println("Dame una palabra");
+             palabra1=sc.nextLine();
+             System.out.println("Dame una palabra");
+             palabra2=sc.nextLine();
      
      case 2:
          
