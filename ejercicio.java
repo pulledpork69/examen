@@ -16,7 +16,10 @@ public class ejercicio {
      
      case 2:
          
-     case 3:
+     case 3: System.out.print("Ingrese una frase: ");
+        String frase = sc.nextLine();
+        System.out.print("Ingrese una letra para buscar: ");
+        String letraInput = sc.nextLine();
      
      case 4:
  }
