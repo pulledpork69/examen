@@ -18,7 +18,8 @@ public class ejercicio {
          
      case 3:
      
-     case 4:
+     case 4: System.out.println("Saliste correctamente");
+        break;
  }
     }
 }
