@@ -14,7 +14,9 @@ public class ejercicio {
  switch (eleccion){
      case 1: 
      
-     case 2:
+     case 2: System.out.print("Ingrese una frase: ");
+     palabra1=sc.nextLine();
+     
          
      case 3:
      
