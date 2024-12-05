@@ -49,7 +49,14 @@ public class ejercicio {
        }
        break;
          
+<<<<<<< HEAD
      case 4:
+=======
+     case 3:
+     
+     case 4: System.out.println("Saliste correctamente");
+        break;
+>>>>>>> rama4
  }
     }
 }
